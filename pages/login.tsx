@@ -45,7 +45,7 @@ return (
       <input type="password" name="password" />
   </div>
   <div className={styles.loga}>
-    <a href="/login" className={styles.signin}>Register</a>
+    <link href="/login" className={styles.signin}>Register</link>
     </div>
     <br />
     <div>

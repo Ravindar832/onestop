@@ -35,7 +35,8 @@ export default function Home() {
       <input type="password" name="password" />
   </div><br />
   <div className={styles.loga}>
-    <a href="/dashboard" className={styles.signin}>login</a>
+    <link href="/dashboard" className={styles.signin}>login</link>
+    
     </div><br />
     <div>
             <p>new user?</p>
