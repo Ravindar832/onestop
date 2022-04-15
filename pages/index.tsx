@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link';
+import React, { useState } from "react";
 
 export default function Home() {
   
@@ -35,12 +36,14 @@ export default function Home() {
       <input type="password" name="password" />
   </div><br />
   <div className={styles.loga}>
-    <link href="/dashboard" className={styles.signin}>login</link>
+   <p className={styles.signin}> <Link href="/dashboard" >login</Link></p>
     
     </div><br />
     <div>
             <p>new user?</p>
-           <p> create an account<a href="/login" className={styles.signup}>signup</a></p>
+           <p> create an account <p className={styles.signup}><Link href="/login" >signup</Link></p></p>
+           
+          
           </div>
           </div>
 </form>

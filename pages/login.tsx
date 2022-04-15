@@ -45,12 +45,13 @@ return (
       <input type="password" name="password" />
   </div>
   <div className={styles.loga}>
-    <link href="/login" className={styles.signin}>Register</link>
+    <p className={styles.signin}><Link href="/login">Register</Link></p>
     </div>
     <br />
     <div>
             <p>Already Registered?</p><br />
-           <p><link href="/" className={styles.signup}>login </link></p>
+           {/* <p><a href="/" className={styles.signup}>login </a></p> */}
+          <p className={styles.signup}><Link  href="/" >login</Link></p>
           </div>
     
        </div>   
