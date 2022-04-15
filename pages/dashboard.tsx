@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.scss'
 import React, { useState } from "react";
+import Link from 'next/link';
 import Home from '.';
 
 export default function dashboard() {

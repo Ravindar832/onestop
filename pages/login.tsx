@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.scss'
 import React, { useState } from "react";
 import Home from '.';
+import Link from 'next/link';
 
 export default function login() {
 return (
